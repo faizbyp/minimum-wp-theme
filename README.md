@@ -1,13 +1,24 @@
-# minimum-wp-theme
+# minimum-wp-theme🌐
+
+Boilerplate untuk membuat tema Wordpress dari nol dengan fungsi seminimal mungkin selayaknya sebuah blog.
+
+# Instalasi Lokal
+
+1. Instal XAMPP untuk server lokal
+2. Buat user beserta database-nya di phpmyadmin untuk instalasi Wordpress
+2. Pasang Wordpress di folder htdocs dan koneksikan ke database
+3. Masuk ke dalam folder /wp-content/themes
+4. Clone repo ini ke dalam direktori tsb
+5. Aktivasi tema, modifikasi tema sesuai keinginan
 
 # Fitur
 
-1. Template custom page untuk halaman utama
-2. Template custom page untuk tiap page baru
-3. Template custom page untuk tiap single post baru
-4. Template custom page untuk kategori (menampilkan list post di kategori)
-5. Custom css dan skrip js
-6. Menu (navbar)
+- Template custom page untuk halaman utama
+- Template custom page untuk tiap page baru
+- Template custom page untuk tiap single post baru
+- Template custom page untuk kategori (menampilkan list post di kategori)
+- Custom CSS dan skrip JS
+- Menu (navbar)
 
 # Struktur File
 
@@ -51,6 +62,10 @@ Template untuk tiap kategori post (arsip) pada website.
 
 Berisi fungsi-fungsi (hook) yang ada pada Wordpress untuk menambahkan fungsional pada tema.
 
-Sumber:
+# Notes!
 
-[https://www.youtube.com/watch?v=pFMgAWkrk8o&list=TLPQMDkwMTIwMjMjfrvO7W7rQg](https://www.youtube.com/watch?v=pFMgAWkrk8o&list=TLPQMDkwMTIwMjMjfrvO7W7rQg)
+Styling pada repo ini belum rapi. Gunakan CSS murni pada style.css atau install framework CSS untuk styling tema Wordpress.
+Selengkapnya baca komentar pada kode.
+
+<hr>
+Sumber: https://www.youtube.com/watch?v=pFMgAWkrk8o&list=TLPQMDkwMTIwMjMjfrvO7W7rQg
