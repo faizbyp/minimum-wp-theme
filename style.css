@@ -2,3 +2,13 @@
     Theme Name: Tema Baru
     Author: faizbyp
 */
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: brown;
+    width: 100%;
+    color: white;
+}
